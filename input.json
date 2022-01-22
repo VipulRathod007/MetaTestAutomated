@@ -1,0 +1,24 @@
+{
+    "RemoteMachineAddress": "abc.xyz.ya",
+    "Core": {
+        "SourcePath": "\\fakepath\\file.ext",
+        "DestPath": "C:\\fakepath\\file.ext",
+        "ForceUpdate": false,
+        "Branch": "master"
+    },
+    "Plugin": {
+        "Compile": [
+            {
+                "SourcePath": "\\fakepath\\file.ext",
+                "DestPath": "C:\\fakepath\\file.ext",
+                "ForceUpdate": false,
+                "Brand": "Microsoft",
+                "WaitForUserToSetupDSN": false,
+                "DataSourceConfiguration": {
+                    "Description": "Microsoft Excel DSN",
+                    "Driver": "Microsoft Excel ODBC Driver"
+                }
+            }
+        ]
+    }
+}
